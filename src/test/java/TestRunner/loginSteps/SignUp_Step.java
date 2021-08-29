@@ -156,10 +156,10 @@ public class SignUp_Step extends SetupClass {
 		//System.out.println("URL matching --> Part executed");
 		//Thread.sleep(5000);
 		 try {
-		Thread.sleep(1400);
+		Thread.sleep(5000);
 		// select stripe option
 		WebElement co_btn  =  wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#pg-checkout-billing-payment-form > div > div:nth-child(1) > label")));
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 	         co_btn.click();
 		Thread.sleep(5000);
 	     } catch( NoSuchElementException popup) { 
